@@ -9,8 +9,8 @@ ledPin = 27
 GPIO.setup(ledPin, GPIO.OUT)
 GPIO.setup(17, GPIO.OUT)
 GPIO.setup(22, GPIO.OUT)
-ADAFRUIT_IO_KEY = 'aio_ypBG78cIax0ZmQLH7SAaEBLgVmfr'
-ADAFRUIT_IO_USERNAME = 'nisarg001'
+ADAFRUIT_IO_KEY = 'Your KEY'
+ADAFRUIT_IO_USERNAME = 'USERNAME'
 #FEED_ID = 'bulb'
 def connected(client):
     # Subscribe to changes on a feed named Counter.
